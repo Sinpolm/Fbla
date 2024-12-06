@@ -9,10 +9,15 @@ public class DoorController : MonoBehaviour
     private Quaternion closedRotation; // Initial rotation of the door
     private Quaternion openRotation; // Target rotation of the door
 
+    public GameObject ui;
+
+    
+
     void Start()
     {
         closedRotation = transform.rotation;
         openRotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y + openAngle, transform.eulerAngles.z);
+        ui.SetActive(false);
     }
 
     void Update()
@@ -38,6 +43,7 @@ public class DoorController : MonoBehaviour
         if (other.CompareTag("Player")) // Make sure the player has the "Player" tag
         {
             isPlayerNear = true;
+            ui.SetActive(true);
         }
     }
 
@@ -46,6 +52,7 @@ public class DoorController : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerNear = false;
+            ui.SetActive(false);
         }
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e2f28ff868916424695d814c64f5916d
+guid: dd8e376bcf5f1824783a7091bf85b494
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: png_0
+      name: redblack_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 1915
-        height: 1002
+        width: 1776
+        height: 724
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116b5b6e341fb774fa9c1472a00dbf58
-      internalID: -547712609
+      spriteID: 09e5b3f4423f3aa4a87f14e755c50c5d
+      internalID: -1321073469
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7da89d41bff55bf4fbe63d651884222d
+    spriteID: 13d5fb6783d04004f816be4af1e93c13
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      png_0: -547712609
+      redblack_0: -1321073469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
